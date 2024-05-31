@@ -1,0 +1,105 @@
+.searchbox {
+  text-align: right;
+  padding: 2px 15px;
+  margin-bottom: 15px;
+  input {
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    color: #565656;
+    padding: 8px 12px;
+    height: 40px;
+    box-shadow: none;
+  }
+}
+.tableStyle {
+  .rdt_TableHead {
+    .rdt_TableHeadRow {
+      background-color: #2d2727;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+  }
+  .rdt_TableRow {
+    &:nth-child(even) {
+      background-color: #c1efff38;
+      font-size: 14px;
+    }
+  }
+}
+.bmpamn span {
+  opacity: 0.2;
+}
+
+.colorStar {
+  color: #ff2f00;
+  margin-right: 5px;
+}
+
+.userDetail {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  .carddetail {
+    width: 65%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+    img {
+      width: 260px;
+      height: auto;
+    }
+    .userCard {
+      padding: 10px 15px 15px 25px;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+      li {
+        margin-bottom: 15px;
+        span {
+          width: 80px;
+          display: inline-block;
+        }
+      }
+    }
+    .rating {
+      h4 {
+        margin: 0;
+        color: #9f9e9e;
+        font-size: 18px;
+      }
+    }
+  }
+  .userPayment {
+    width: 35%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+    min-height: 306px;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1efff38;
+    flex-direction: column;
+    h2 {
+      margin: 0;
+      font-size: 45px;
+      font-weight: 600;
+      color: #212529;
+      text-align: center;
+    }
+    h3 {
+      color: #212529;
+      text-align: center;
+    }
+  }
+}
+.cursor {
+  cursor: pointer;
+}
